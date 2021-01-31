@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="socketconnect:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/socketconnect_jar</output-path>
+    <root id="root">
+      <element id="archive" name="socketconnect.jar">
+        <element id="module-output" name="socketconnect" />
+      </element>
+      <element id="library" level="project" name="slf4j-api-1.7.30" />
+      <element id="library" level="project" name="slf4j-simple-1.7.30" />
+      <element id="library" level="project" name="jlayer-1.0.1" />
+      <element id="library" level="project" name="org.eclipse.jgit-5.10.0.202012080955-r" />
+      <element id="library" level="project" name="org.eclipse.jgit.archive-5.10.0.202012080955-r" />
+    </root>
+  </artifact>
+</component>
