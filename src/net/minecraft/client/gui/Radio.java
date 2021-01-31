@@ -80,7 +80,7 @@ public class Radio extends Thread {
         try
         {
             //1、创建客户端Socket，指定服务器端口号和地址
-            Socket socket = new Socket("cd.konara.best",11005);
+            Socket socket = new Socket("XXX.XXX.com",11005);//XXX.XXX.com为你服务端所在服务器的地址
             //2、获取输出流,向服务器发送信息
             OutputStream os = socket.getOutputStream();
             //字节输出流
